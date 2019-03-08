@@ -5278,3 +5278,157 @@ LogInit: Object subsystem initialized
 [2019.03.08-09.54.20:909][ 56]SourceControl: Source control is disabled
 [2019.03.08-09.54.20:909][ 56]LogSlate: Window 'Source Control Login' being destroyed
 [2019.03.08-09.54.24:225][447]LogSavePackage: Moving '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Saved/Soldier_textures_InstE69D85DB4F0AA910534DBA87036AAFF6.tmp' to '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Content/PFE/Imports/AI/Final/Materials/Soldier_textures_Inst.uasset'
+[2019.03.08-10.00.17:981][189]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/PFE/Imports/AI/Final/Animations/Retarget_UE4ASP_HeroTPP_AnimBlueprint.Retarget_UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.08-10.00.17:998][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.00.18:225][189]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.00.31:675][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.00.53:106][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.02.04:162][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.02.29:877][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.02.37:330][645]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton.EnemySoldier_v1_Skeleton
+[2019.03.08-10.02.37:335][645]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.02.37:360][645]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.03.25:772][ 58]LogSavePackage: Moving '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Saved/EnemySoldier_v1_Skeleton148487AB4DD4660F1294ECA099303EF2.tmp' to '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Content/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton.uasset'
+[2019.03.08-10.03.42:866][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-10.03.58:628][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-10.04.42:015][897]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-10.04.42:063][897]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PFE/Levels/Level_art' took 0.025
+[2019.03.08-10.04.42:064][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton] ([1] browsable assets)...
+[2019.03.08-10.04.42:064][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton]
+[2019.03.08-10.04.42:074][897]LogSavePackage: Moving '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Saved/EnemySoldier_v1_Skeleton_Auto3A82156864807A31A69D80DA9B809518D.tmp' to '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Saved/Autosaves/Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton_Auto3.uasset'
+[2019.03.08-10.04.42:076][897]LogFileHelpers: Auto-saving content packages took 0.012
+[2019.03.08-10.05.24:213][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.07.04:142][461]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.EnemySoldier_v1
+[2019.03.08-10.07.04:147][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.07.04:172][461]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.07.09:422][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.07.14:702][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.07.18:791][ 49]LogSlate: Window 'EnemySoldier_v1_Skeleton*' being destroyed
+[2019.03.08-10.07.24:823][756]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1_Skeleton.EnemySoldier_v1_Skeleton
+[2019.03.08-10.07.24:830][756]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.07.24:865][756]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.08.49:262][708]LogSlate: Window 'EnemySoldier_v1_Skeleton*' being destroyed
+[2019.03.08-10.08.53:588][205]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/PFE/Imports/AI/Final/Animations/Retarget_UE4ASP_HeroTPP_AnimBlueprint.Retarget_UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.08-10.08.53:598][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.08.53:821][205]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.09.00:016][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17617a53fa0 [can pipeline])
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 1 (Re-using existing connection! (#41) with host datarouter.ol.epicgames.com)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.226.43.72) port 443 (#41))
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 3 (upload completely sent off: 372 out of 372 bytes)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 6 (Closing connection 41)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9226DE2D-44DF-48DA-338F-4DA28ECE6716%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.0-4212847%2B%2B%2BUE4%2BRelease-4.20&UserID=39824cf84233e56c353dccbffedb5100%7C072f3caed2b14c5b888f4908fe6aeb95%7Ccf8163a1-e491-42fe-a516-8652904b024e&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.38.14:740][608]LogHttp: Warning: 0000017672FB8CC0: libcurl info message cache 9 (Closing connection 42)
+[2019.03.08-10.40.14:763][ 11]LogHttp: Warning: 0000017672FB9800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.40.14:763][ 11]LogHttp: Warning: 0000017672FB9800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.40.14:763][ 11]LogHttp: Warning: 0000017672FB9800: libcurl info message cache 1 (Closing connection 43)
+[2019.03.08-10.41.40:673][312]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/PFE/Imports/AI/Final/Animations/Retarget_UE4ASP_HeroTPP_AnimBlueprint.Retarget_UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.08-10.41.40:685][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.08-10.41.40:907][312]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.08-10.42.14:798][312]LogHttp: Warning: 00000176743FE480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.42.14:798][312]LogHttp: Warning: 00000176743FE480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.42.14:798][312]LogHttp: Warning: 00000176743FE480: libcurl info message cache 1 (Closing connection 44)
+[2019.03.08-10.44.14:817][519]LogHttp: Warning: 00000176743FF380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.44.14:817][519]LogHttp: Warning: 00000176743FF380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.44.14:817][519]LogHttp: Warning: 00000176743FF380: libcurl info message cache 1 (Closing connection 45)
+[2019.03.08-10.46.14:864][925]LogHttp: Warning: 000001767286BD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.46.14:864][925]LogHttp: Warning: 000001767286BD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.46.14:864][925]LogHttp: Warning: 000001767286BD80: libcurl info message cache 1 (Closing connection 46)
+[2019.03.08-10.48.14:908][329]LogHttp: Warning: 00000176745320C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.48.14:908][329]LogHttp: Warning: 00000176745320C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.48.14:908][329]LogHttp: Warning: 00000176745320C0: libcurl info message cache 1 (Closing connection 47)
+[2019.03.08-10.50.14:944][733]LogHttp: Warning: 0000017674531BC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.50.14:944][733]LogHttp: Warning: 0000017674531BC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.50.14:944][733]LogHttp: Warning: 0000017674531BC0: libcurl info message cache 1 (Closing connection 48)
+[2019.03.08-10.52.14:983][130]LogHttp: Warning: 00000176735ABEC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.52.14:983][130]LogHttp: Warning: 00000176735ABEC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.52.14:983][130]LogHttp: Warning: 00000176735ABEC0: libcurl info message cache 1 (Closing connection 49)
+[2019.03.08-10.54.15:025][535]LogHttp: Warning: 00000176735A9D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.54.15:025][535]LogHttp: Warning: 00000176735A9D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.54.15:025][535]LogHttp: Warning: 00000176735A9D00: libcurl info message cache 1 (Closing connection 50)
+[2019.03.08-10.56.15:065][940]LogHttp: Warning: 00000176735A8B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.56.15:065][940]LogHttp: Warning: 00000176735A8B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.56.15:065][940]LogHttp: Warning: 00000176735A8B80: libcurl info message cache 1 (Closing connection 51)
+[2019.03.08-10.58.15:086][342]LogHttp: Warning: 0000017673096840: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-10.58.15:086][342]LogHttp: Warning: 0000017673096840: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-10.58.15:086][342]LogHttp: Warning: 0000017673096840: libcurl info message cache 1 (Closing connection 52)
+[2019.03.08-11.00.15:123][744]LogHttp: Warning: 0000017672A9C7C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.00.15:123][744]LogHttp: Warning: 0000017672A9C7C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.00.15:123][744]LogHttp: Warning: 0000017672A9C7C0: libcurl info message cache 1 (Closing connection 53)
+[2019.03.08-11.02.15:145][145]LogHttp: Warning: 0000017672A9D580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.02.15:145][145]LogHttp: Warning: 0000017672A9D580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.02.15:145][145]LogHttp: Warning: 0000017672A9D580: libcurl info message cache 1 (Closing connection 54)
+[2019.03.08-11.04.15:171][522]LogHttp: Warning: 0000017672A9C180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.04.15:171][522]LogHttp: Warning: 0000017672A9C180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.04.15:171][522]LogHttp: Warning: 0000017672A9C180: libcurl info message cache 1 (Closing connection 55)
+[2019.03.08-11.06.15:195][923]LogHttp: Warning: 0000017672A9C540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.06.15:195][923]LogHttp: Warning: 0000017672A9C540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.06.15:195][923]LogHttp: Warning: 0000017672A9C540: libcurl info message cache 1 (Closing connection 56)
+[2019.03.08-11.08.15:229][327]LogHttp: Warning: 000001763DB99580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.08.15:229][327]LogHttp: Warning: 000001763DB99580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.08.15:229][327]LogHttp: Warning: 000001763DB99580: libcurl info message cache 1 (Closing connection 57)
+[2019.03.08-11.10.15:253][730]LogHttp: Warning: 000001763DB9A5C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.10.15:253][730]LogHttp: Warning: 000001763DB9A5C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.10.15:253][730]LogHttp: Warning: 000001763DB9A5C0: libcurl info message cache 1 (Closing connection 58)
+[2019.03.08-11.12.15:270][132]LogHttp: Warning: 000001763DB982C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.12.15:270][132]LogHttp: Warning: 000001763DB982C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.12.15:270][132]LogHttp: Warning: 000001763DB982C0: libcurl info message cache 1 (Closing connection 59)
+[2019.03.08-11.14.15:305][536]LogHttp: Warning: 000001763DB9B380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.14.15:305][536]LogHttp: Warning: 000001763DB9B380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.14.15:305][536]LogHttp: Warning: 000001763DB9B380: libcurl info message cache 1 (Closing connection 60)
+[2019.03.08-11.16.15:347][941]LogHttp: Warning: 000001763DB99A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.16.15:347][941]LogHttp: Warning: 000001763DB99A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.16.15:347][941]LogHttp: Warning: 000001763DB99A80: libcurl info message cache 1 (Closing connection 61)
+[2019.03.08-11.18.15:369][341]LogHttp: Warning: 00000176607DE200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.18.15:369][341]LogHttp: Warning: 00000176607DE200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.18.15:369][341]LogHttp: Warning: 00000176607DE200: libcurl info message cache 1 (Closing connection 62)
+[2019.03.08-11.20.15:381][742]LogHttp: Warning: 00000176607DE980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.20.15:381][742]LogHttp: Warning: 00000176607DE980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.20.15:381][742]LogHttp: Warning: 00000176607DE980: libcurl info message cache 1 (Closing connection 63)
+[2019.03.08-11.22.15:410][141]LogHttp: Warning: 0000017638B8F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.22.15:410][141]LogHttp: Warning: 0000017638B8F240: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.22.15:410][141]LogHttp: Warning: 0000017638B8F240: libcurl info message cache 1 (Closing connection 64)
+[2019.03.08-11.24.15:429][543]LogHttp: Warning: 0000017638B8EFC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.24.15:429][543]LogHttp: Warning: 0000017638B8EFC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.24.15:429][543]LogHttp: Warning: 0000017638B8EFC0: libcurl info message cache 1 (Closing connection 65)
+[2019.03.08-11.26.15:441][942]LogHttp: Warning: 0000017674821300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.26.15:441][942]LogHttp: Warning: 0000017674821300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.26.15:441][942]LogHttp: Warning: 0000017674821300: libcurl info message cache 1 (Closing connection 66)
+[2019.03.08-11.28.15:484][347]LogHttp: Warning: 0000017674820540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.28.15:485][347]LogHttp: Warning: 0000017674820540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.28.15:485][347]LogHttp: Warning: 0000017674820540: libcurl info message cache 1 (Closing connection 67)
+[2019.03.08-11.30.15:520][751]LogHttp: Warning: 0000017674823380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.30.15:520][751]LogHttp: Warning: 0000017674823380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.30.15:520][751]LogHttp: Warning: 0000017674823380: libcurl info message cache 1 (Closing connection 68)
+[2019.03.08-11.32.15:547][151]LogHttp: Warning: 0000017698E1E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.32.15:547][151]LogHttp: Warning: 0000017698E1E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.32.15:547][151]LogHttp: Warning: 0000017698E1E980: libcurl info message cache 1 (Closing connection 69)
+[2019.03.08-11.34.15:573][554]LogHttp: Warning: 0000017698E1DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.34.15:574][554]LogHttp: Warning: 0000017698E1DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.34.15:574][554]LogHttp: Warning: 0000017698E1DD00: libcurl info message cache 1 (Closing connection 70)
+[2019.03.08-11.36.15:605][956]LogHttp: Warning: 0000017698E1F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.36.15:605][956]LogHttp: Warning: 0000017698E1F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.36.15:605][956]LogHttp: Warning: 0000017698E1F100: libcurl info message cache 1 (Closing connection 71)
+[2019.03.08-11.38.15:624][357]LogHttp: Warning: 000001769822A840: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.38.15:624][357]LogHttp: Warning: 000001769822A840: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.38.15:624][357]LogHttp: Warning: 000001769822A840: libcurl info message cache 1 (Closing connection 72)
+[2019.03.08-11.40.15:659][761]LogHttp: Warning: 000001769822AAC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.40.15:659][761]LogHttp: Warning: 000001769822AAC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.40.15:659][761]LogHttp: Warning: 000001769822AAC0: libcurl info message cache 1 (Closing connection 73)
+[2019.03.08-11.42.15:695][165]LogHttp: Warning: 0000017698228400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.42.15:695][165]LogHttp: Warning: 0000017698228400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.42.15:695][165]LogHttp: Warning: 0000017698228400: libcurl info message cache 1 (Closing connection 74)
+[2019.03.08-11.44.15:738][570]LogHttp: Warning: 0000017698229300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.08-11.44.15:738][570]LogHttp: Warning: 0000017698229300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.08-11.44.15:739][570]LogHttp: Warning: 0000017698229300: libcurl info message cache 1 (Closing connection 75)
+[2019.03.08-11.45.13:692][502]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-11.45.13:815][502]LogSavePackage: Moving '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Saved/Retarget_UE4ASP_HeroTPP_AnimBlue45A16EC24CA5416E5CE4008C0D618D0E.tmp' to '../../../../../../Users/etudiant/Documents/GitHub/ICHOR-Last-Year/Content/PFE/Imports/AI/Final/Animations/Retarget_UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2019.03.08-11.45.32:210][889]LogSlate: Window 'Save Content' being destroyed
+[2019.03.08-11.45.32:421][889]LogSlate: Window 'ICHOR - Unreal Editor' being destroyed
+[2019.03.08-11.45.32:595][890]Cmd: QUIT_EDITOR
+[2019.03.08-11.45.32:625][890]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-11.45.32:646][890]LogExit: Preparing to exit.
