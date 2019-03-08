@@ -1,4 +1,4 @@
-﻿Log file open, 03/08/19 14:17:17
+﻿Log file open, 03/08/19 14:47:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ICHOR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.301521
+LogStats: Stats thread started at 0.275336
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -92,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.099s to configure plugins.
+LogStreaming: Display: Took  0.069s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,721 +149,349 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.08-13.17.18:417][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.08-13.17.18:417][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.08-13.17.18:434][  0]LogHAL: Display: Platform has ~ 32 GB [34254594048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.08-13.17.18:434][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.08-13.17.18:434][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.08-13.17.18:437][  0]LogInit: Computer: i7-mk8-2017-03
-[2019.03.08-13.17.18:437][  0]LogInit: User: etudiant
-[2019.03.08-13.17.18:437][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.08-13.17.18:437][  0]LogInit: High frequency timer resolution =3.515624 MHz
-[2019.03.08-13.17.18:437][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.03.08-13.17.18:437][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.08-13.17.18:437][  0]LogMemory: Process Physical Memory: 102.38 MB used, 102.38 MB peak
-[2019.03.08-13.17.18:437][  0]LogMemory: Process Virtual Memory: 90.59 MB used, 90.59 MB peak
-[2019.03.08-13.17.18:437][  0]LogMemory: Physical Memory: 6210.26 MB used,  26457.46 MB free, 32667.73 MB total
-[2019.03.08-13.17.18:437][  0]LogMemory: Virtual Memory: 4640.25 MB used,  26457.46 MB free, 134217728.00 MB total
-[2019.03.08-13.17.18:536][  0]LogInit: Using OS detected language (fr-FR).
-[2019.03.08-13.17.18:536][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.03.08-13.17.18:537][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.03.08-13.17.18:553][  0]LogStreaming: Display: Took  0.016s to InitEngineTextLocalization.
-[2019.03.08-13.17.18:553][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.08-13.17.18:631][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.08-13.17.18:631][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.08-13.17.20:362][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.08-13.17.20:362][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.08-13.17.20:408][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.03.08-13.17.20:408][  0]LogD3D11RHI:       6052/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.03.08-13.17.20:418][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.03.08-13.17.20:418][  0]LogD3D11RHI:       128/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.08-13.17.20:419][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.08-13.17.20:419][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.08-13.17.20:419][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.08-13.17.20:425][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.08-13.17.20:425][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.08-13.17.20:425][  0]LogWindows: EnumDisplayDevices:
-[2019.03.08-13.17.20:425][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.03.08-13.17.20:425][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2019.03.08-13.17.20:425][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.03.08-13.17.20:425][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.03.08-13.17.20:425][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.08-13.17.20:426][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.08-13.17.20:426][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.08-13.17.20:426][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.03.08-13.17.20:426][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.03.08-13.17.20:426][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
-[2019.03.08-13.17.20:426][  0]LogD3D11RHI:      Driver Date: 2-23-2018
-[2019.03.08-13.17.20:426][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.03.08-13.17.20:457][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.08-13.17.20:474][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.03.08-13.17.20:522][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Intermediate/Shaders/WorkingDirectory/3692/).
-[2019.03.08-13.17.20:522][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/etudiant/AppData/Local/Temp/UnrealShaderWorkingDir/70B26C8C4E1DFDD974246E9B6AF7BD1D/'.
-[2019.03.08-13.17.20:902][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.08-13.17.20:921][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.08-13.17.20:939][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.08-13.17.20:959][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.08-13.17.20:982][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.08-13.17.21:002][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.08-13.17.21:025][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.08-13.17.21:047][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.08-13.17.21:060][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.08-13.17.21:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.08-13.17.21:167][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.08-13.17.21:253][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.08-13.17.21:253][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.08-13.17.21:281][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.08-13.17.21:281][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.08-13.17.21:299][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.08-13.17.21:317][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.08-13.17.21:336][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.08-13.17.21:360][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.08-13.17.21:376][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.08-13.17.21:376][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.08-13.17.21:597][  0]LogXGEController: Cleaning working directory: C:/Users/etudiant/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.08-13.17.21:597][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.08-13.17.21:597][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.08-13.17.21:597][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.08-13.17.23:134][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.08-13.17.23:188][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.08-13.17.23:189][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.08-13.17.23:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.08-13.17.23:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.08-13.17.23:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.08-13.17.23:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.08-13.17.23:203][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.08-13.17.23:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/etudiant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.08-13.17.23:216][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.08-13.17.23:216][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.08-13.17.23:230][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.08-13.17.23:232][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.08-13.17.23:244][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.08-13.17.23:405][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2019.03.08-13.17.23:690][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.08-13.17.23:884][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.08-13.17.23:903][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.08-13.17.23:903][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.08-13.17.23:903][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.08-13.17.23:903][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.08-13.17.24:011][  0]LogNetVersion: ICHOR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3601110329)
-[2019.03.08-13.17.24:890][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092520 seconds
-[2019.03.08-13.17.24:897][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.08-13.17.24:897][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.03.08-13.17.24:897][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.08-13.17.27:193][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.08-13.17.27:213][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.08-13.17.27:578][  0]SourceControl: Source control is disabled
-[2019.03.08-13.17.27:578][  0]SourceControl: Source control is disabled
-[2019.03.08-13.17.27:588][  0]SourceControl: Source control is disabled
-[2019.03.08-13.17.27:597][  0]SourceControl: Source control is disabled
-[2019.03.08-13.17.28:038][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.08-13.17.28:140][  0]LogOcInput: OculusInput pre-init called
-[2019.03.08-13.17.28:249][  0]LogEngine: Initializing Engine...
-[2019.03.08-13.17.28:249][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.08-13.17.28:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.08-13.17.28:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.08-13.17.28:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.08-13.17.28:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.08-13.17.28:596][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.08-13.17.28:611][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.08-13.17.28:621][  0]LogInit: XAudio2 using 'DELL U2414H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.08-13.17.28:643][  0]LogInit: FAudioDevice initialized.
-[2019.03.08-13.17.28:644][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.08-13.17.28:686][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.08-13.17.28:699][  0]LogInit: Texture streaming: Enabled
-[2019.03.08-13.17.28:740][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.08-13.17.28:759][  0]LogInit: Transaction tracking system initialized
-[2019.03.08-13.17.28:810][  0]BlueprintLog: New page: Editor Load
-[2019.03.08-13.17.29:030][  0]LocalizationService: Localization service is disabled
-[2019.03.08-13.17.29:550][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.08-13.17.29:550][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.08-13.17.29:550][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.08-13.17.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.08-13.17.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.08-13.17.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.08-13.17.29:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.08-13.17.29:791][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/' took 0.02s
-[2019.03.08-13.17.29:941][  0]SourceControl: Source control is disabled
-[2019.03.08-13.17.29:941][  0]Cmd: MAP LOAD FILE="../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Content/PFE/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.08-13.17.29:945][  0]LightingResults: New page: Lighting Build
-[2019.03.08-13.17.29:946][  0]MapCheck: New page: Map Check
-[2019.03.08-13.17.29:947][  0]LightingResults: New page: Lighting Build
-[2019.03.08-13.17.30:350][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/VRTemplate/ExampleContent/VR_Trace_Interaction/Blueprints/BP_TraceVisualiser.BP_TraceVisualiser_C:InstanceMesh_GEN_VARIABLE because its class does not exist
-[2019.03.08-13.17.31:453][  0]LogLinker: Warning: Can't find file '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC'
-[2019.03.08-13.17.31:453][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.EnemySoldier_v1 Referenced by SkeletalMesh_GEN_VARIABLE
-[2019.03.08-13.17.31:454][  0]LogLinker: Warning: Can't find file for asset '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC' while loading ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Content/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.uasset.
-[2019.03.08-13.17.31:454][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.EnemySoldier_v1 Referenced by SkeletalMesh_GEN_VARIABLE
-[2019.03.08-13.17.31:454][  0]LoadErrors: Error: /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1 : Can't find file for asset. /Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC
-[2019.03.08-13.17.31:454][  0]LogLinker: Warning: Can't find file '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC'
-[2019.03.08-13.17.31:454][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.EnemySoldier_v1 Referenced by SkeletalMesh_GEN_VARIABLE
-[2019.03.08-13.17.31:454][  0]LogLinker: Warning: Can't find file for asset '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC' while loading ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Content/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.uasset.
-[2019.03.08-13.17.31:454][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1.EnemySoldier_v1 Referenced by SkeletalMesh_GEN_VARIABLE
-[2019.03.08-13.17.31:454][  0]LoadErrors: Error: /Game/PFE/Imports/AI/Final/Meshes/EnemySoldier_v1 : Can't find file for asset. /Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC
-[2019.03.08-13.17.32:096][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/PFE/Blueprint/NotMine/BP_TeleportPreview.BP_TeleportPreview_C:TeleportChaperoneBounds_GEN_VARIABLE because its class does not exist
-[2019.03.08-13.17.33:791][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
-[2019.03.08-13.17.33:791][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
-[2019.03.08-13.17.33:847][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2019.03.08-13.17.33:847][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
-[2019.03.08-13.17.34:301][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0018,31] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 989 ms] (/Game/VRTemplate/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
-[2019.03.08-13.17.34:302][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0018,31] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 989 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
-[2019.03.08-13.17.34:921][  0]LogLinker: Warning: Can't find file '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC'
-[2019.03.08-13.17.34:921][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC.Soldier_Textures_INSTC Referenced by EnemySoldier_v1
-[2019.03.08-13.17.34:921][  0]LogLinker: Warning: Can't find file for asset '/Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC' while loading NULL.
-[2019.03.08-13.17.34:921][  0]LoadErrors: Failed to load /Game/PFE/Imports/AI/Final/Materials/Soldier_Textures_INSTC.Soldier_Textures_INSTC Referenced by EnemySoldier_v1
-[2019.03.08-13.17.37:835][  0]LogAIModule: Creating AISystem for world Level_1
-[2019.03.08-13.17.37:870][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2019.03.08-13.17.37:870][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2019.03.08-13.17.37:877][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold needed to have new flag set bUsedWithSkeletalMesh !
-[2019.03.08-13.17.37:879][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Gold, compiling. 
-[2019.03.08-13.17.37:945][  0]MapCheck: Warning: M_Metal_Gold Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.08-13.17.37:945][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel needed to have new flag set bUsedWithSkeletalMesh !
-[2019.03.08-13.17.37:947][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
-[2019.03.08-13.17.37:974][  0]LogShaderCompilers: Display: Shaders left to compile 69
-[2019.03.08-13.17.37:974][  0]LogShaderCompilers: Display: Shaders left to compile 59
-[2019.03.08-13.17.37:974][  0]LogShaderCompilers: Display: Shaders left to compile 49
-[2019.03.08-13.17.37:974][  0]LogShaderCompilers: Display: Shaders left to compile 39
-[2019.03.08-13.17.37:974][  0]LogShaderCompilers: Display: Shaders left to compile 29
-[2019.03.08-13.17.37:974][  0]MapCheck: Warning: M_Metal_Burnished_Steel Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.08-13.17.37:974][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome needed to have new flag set bUsedWithSkeletalMesh !
-[2019.03.08-13.17.37:977][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Chrome, compiling. 
-[2019.03.08-13.17.38:005][  0]MapCheck: Warning: M_Metal_Chrome Material /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:024][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:027][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:028][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:028][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:028][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:028][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:028][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:047][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:048][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:048][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:048][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:048][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:048][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:061][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:061][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:061][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:061][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:061][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:062][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:072][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:073][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:073][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:073][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:073][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:073][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:091][  0]PIE: Warning: AttachTo: '/Game/PFE/Levels/Level_1.Level_1:PersistentLevel.Driller_5.DefaultSceneRoot' is not static  (in blueprint "Driller"), cannot attach '/Game/PFE/Levels/Level_1.Level_1:PersistentLevel.Driller_5.StaticMesh1' which is static to it. Aborting.
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:093][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:103][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:104][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:106][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:108][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:110][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:112][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:115][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:117][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:119][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:123][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:126][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:133][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
-[2019.03.08-13.17.38:164][  0]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_78 via property CamTrack, but TRASH_StaticMeshComponent_78 is pending kill
+[2019.03.08-13.47.24:634][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-13.47.24:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.08-13.47.24:645][  0]LogHAL: Display: Platform has ~ 32 GB [34254594048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.08-13.47.24:645][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.08-13.47.24:645][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.08-13.47.24:646][  0]LogInit: Computer: i7-mk8-2017-03
+[2019.03.08-13.47.24:646][  0]LogInit: User: etudiant
+[2019.03.08-13.47.24:646][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.08-13.47.24:646][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2019.03.08-13.47.24:646][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.03.08-13.47.24:646][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.08-13.47.24:646][  0]LogMemory: Process Physical Memory: 101.73 MB used, 101.73 MB peak
+[2019.03.08-13.47.24:646][  0]LogMemory: Process Virtual Memory: 93.02 MB used, 93.02 MB peak
+[2019.03.08-13.47.24:646][  0]LogMemory: Physical Memory: 6361.50 MB used,  26306.22 MB free, 32667.73 MB total
+[2019.03.08-13.47.24:646][  0]LogMemory: Virtual Memory: 4642.82 MB used,  26306.22 MB free, 134217728.00 MB total
+[2019.03.08-13.47.24:661][  0]LogInit: Using OS detected language (fr-FR).
+[2019.03.08-13.47.24:661][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.03.08-13.47.24:662][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.03.08-13.47.24:663][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.03.08-13.47.24:663][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.08-13.47.24:689][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.08-13.47.24:689][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.08-13.47.24:861][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.08-13.47.24:862][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.08-13.47.24:906][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.08-13.47.24:906][  0]LogD3D11RHI:       6052/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.08-13.47.24:916][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.08-13.47.24:916][  0]LogD3D11RHI:       128/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.08-13.47.24:917][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.08-13.47.24:917][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.08-13.47.24:917][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.08-13.47.24:923][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.08-13.47.24:923][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.08-13.47.24:923][  0]LogWindows: EnumDisplayDevices:
+[2019.03.08-13.47.24:923][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.08-13.47.24:924][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.03.08-13.47.24:924][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.08-13.47.24:924][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.08-13.47.24:924][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.08-13.47.24:924][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.08-13.47.24:924][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.08-13.47.24:925][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.03.08-13.47.24:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.08-13.47.24:925][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2019.03.08-13.47.24:925][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2019.03.08-13.47.24:925][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.08-13.47.24:959][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.08-13.47.24:976][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.08-13.47.25:021][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Intermediate/Shaders/WorkingDirectory/2032/).
+[2019.03.08-13.47.25:021][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/etudiant/AppData/Local/Temp/UnrealShaderWorkingDir/388F81DD44E1EB49F26A30A3122D33F9/'.
+[2019.03.08-13.47.25:258][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.08-13.47.25:268][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.08-13.47.25:278][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.08-13.47.25:288][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.08-13.47.25:298][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.08-13.47.25:309][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.08-13.47.25:320][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.08-13.47.25:330][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.08-13.47.25:335][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-13.47.25:410][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.08-13.47.25:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-13.47.25:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-13.47.25:481][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-13.47.25:482][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-13.47.25:491][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.08-13.47.25:501][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.08-13.47.25:510][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.08-13.47.25:521][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.08-13.47.25:528][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.08-13.47.25:528][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.08-13.47.25:564][  0]LogXGEController: Cleaning working directory: C:/Users/etudiant/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.08-13.47.25:564][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.08-13.47.25:564][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.08-13.47.25:564][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.08-13.47.26:155][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.08-13.47.26:202][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.08-13.47.26:214][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.08-13.47.26:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/etudiant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.08-13.47.26:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.08-13.47.26:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.08-13.47.26:242][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.08-13.47.26:244][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.08-13.47.26:244][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.08-13.47.26:309][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2019.03.08-13.47.26:564][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-13.47.26:666][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.08-13.47.26:668][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.08-13.47.26:668][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.08-13.47.26:668][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.08-13.47.26:668][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.08-13.47.26:685][  0]LogNetVersion: ICHOR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3601110329)
+[2019.03.08-13.47.27:085][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.068252 seconds
+[2019.03.08-13.47.27:090][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.08-13.47.27:090][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.08-13.47.27:090][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.08-13.47.27:758][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.08-13.47.27:770][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.08-13.47.27:915][  0]SourceControl: Source control is disabled
+[2019.03.08-13.47.27:915][  0]SourceControl: Source control is disabled
+[2019.03.08-13.47.27:916][  0]SourceControl: Source control is disabled
+[2019.03.08-13.47.27:917][  0]SourceControl: Source control is disabled
+[2019.03.08-13.47.28:063][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.08-13.47.28:115][  0]LogOcInput: OculusInput pre-init called
+[2019.03.08-13.47.28:165][  0]LogEngine: Initializing Engine...
+[2019.03.08-13.47.28:166][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.08-13.47.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-13.47.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-13.47.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-13.47.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-13.47.28:340][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.08-13.47.28:350][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.08-13.47.28:362][  0]LogInit: XAudio2 using 'DELL U2414H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-13.47.28:375][  0]LogInit: FAudioDevice initialized.
+[2019.03.08-13.47.28:375][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.08-13.47.28:415][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/etudiant/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.08-13.47.28:428][  0]LogInit: Texture streaming: Enabled
+[2019.03.08-13.47.28:438][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.08-13.47.28:447][  0]LogInit: Transaction tracking system initialized
+[2019.03.08-13.47.28:461][  0]BlueprintLog: New page: Editor Load
+[2019.03.08-13.47.28:510][  0]LocalizationService: Localization service is disabled
+[2019.03.08-13.47.28:714][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.08-13.47.28:714][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.08-13.47.28:714][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.08-13.47.28:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-13.47.28:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-13.47.28:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-13.47.28:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-13.47.28:800][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/' took 0.02s
+[2019.03.08-13.47.28:800][  0]SourceControl: Source control is disabled
+[2019.03.08-13.47.28:800][  0]Cmd: MAP LOAD FILE="../../../../../BackupAbsolue/TABProject/ICHOR-Last-Year/Content/PFE/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.08-13.47.28:800][  0]LightingResults: New page: Lighting Build
+[2019.03.08-13.47.28:802][  0]MapCheck: New page: Map Check
+[2019.03.08-13.47.28:802][  0]LightingResults: New page: Lighting Build
+[2019.03.08-13.47.28:963][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/VRTemplate/ExampleContent/VR_Trace_Interaction/Blueprints/BP_TraceVisualiser.BP_TraceVisualiser_C:InstanceMesh_GEN_VARIABLE because its class does not exist
+[2019.03.08-13.47.29:656][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/PFE/Blueprint/NotMine/BP_TeleportPreview.BP_TeleportPreview_C:TeleportChaperoneBounds_GEN_VARIABLE because its class does not exist
+[2019.03.08-13.47.30:706][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2019.03.08-13.47.30:707][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2019.03.08-13.47.30:763][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2019.03.08-13.47.30:763][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2019.03.08-13.47.31:237][  0]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0007,98] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 983 ms] (/Game/VRTemplate/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2019.03.08-13.47.31:237][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0007,98] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 983 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2019.03.08-13.47.33:699][  0]LogAIModule: Creating AISystem for world Level_1
+[2019.03.08-13.47.33:725][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.03.08-13.47.33:725][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.03.08-13.47.33:733][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.08-13.47.33:735][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2019.03.08-13.47.33:800][  0]MapCheck: Warning: M_Metal_Gold Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.08-13.47.33:800][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.08-13.47.33:802][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2019.03.08-13.47.33:830][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.08-13.47.33:830][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.08-13.47.33:830][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.08-13.47.33:830][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.08-13.47.33:830][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.08-13.47.33:830][  0]MapCheck: Warning: M_Metal_Burnished_Steel Material /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.08-13.47.33:831][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.08-13.47.33:833][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2019.03.08-13.47.33:865][  0]MapCheck: Warning: M_Metal_Chrome Material /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:885][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:888][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:902][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:913][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:914][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:914][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:914][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:914][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:914][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:922][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:936][  0]PIE: Warning: AttachTo: '/Game/PFE/Levels/Level_1.Level_1:PersistentLevel.Driller_5.DefaultSceneRoot' is not static  (in blueprint "Driller"), cannot attach '/Game/PFE/Levels/Level_1.Level_1:PersistentLevel.Driller_5.StaticMesh1' which is static to it. Aborting.
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:937][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:949][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:949][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:949][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:950][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:950][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:950][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:952][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:954][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:956][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:959][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:959][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:960][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:960][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:960][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:960][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:962][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:965][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:967][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:970][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:972][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:972][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:972][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:972][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:972][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:973][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:975][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.33:983][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'inEars' of length 0 in '/Game/PFE/Blueprint/NotMine/BP_TeleportArea.BP_TeleportArea_C:GetTrainglesFromPoints'!
+[2019.03.08-13.47.34:016][  0]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_78 via property CamTrack, but TRASH_StaticMeshComponent_78 is pending kill
 	AnimBP1_C /Game/PFE/Levels/Level_1.Level_1:PersistentLevel.BP_WorldInteractionPawn_5.A_Character.AnimBP1_C_0
 	Function /Game/Mannequin/Animations/AnimBP1.AnimBP1_C:ExecuteUbergraph_AnimBP1:0330
-[2019.03.08-13.17.38:171][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.08-13.17.38:219][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.08-13.17.38:345][  0]MapCheck: Map check complete: 0 Error(s), 3 Warning(s), took 125,409ms to complete.
-[2019.03.08-13.17.38:356][  0]LogFileHelpers: Loading map 'Level_1' took 8.415
-[2019.03.08-13.17.38:484][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.08-13.17.38:492][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.08-13.17.38:501][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.08-13.17.38:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.08-13.17.38:531][  0]LogCollectionManager: Loaded 0 collections in 0.000792 seconds
-[2019.03.08-13.17.38:574][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Saved/Collections/' took 0.01s
-[2019.03.08-13.17.38:574][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/Developers/etudiant/Collections/' took 0.01s
-[2019.03.08-13.17.38:574][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/Collections/' took 0.01s
-[2019.03.08-13.17.38:574][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.08-13.17.38:589][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2581 classes and 608 folders.
-[2019.03.08-13.17.38:595][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.08-13.17.38:978][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.08-13.17.38:999][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.03.08-13.17.40:500][  0]LogShaderCompilers: Display: Shaders left to compile 157
-[2019.03.08-13.17.40:500][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.03.08-13.17.40:554][  0]LogSlate: Took 0.006368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.08-13.17.40:563][  0]LogSlate: Took 0.005316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.08-13.17.40:575][  0]LogSlate: Took 0.006458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.08-13.17.40:754][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ICHOR
-[2019.03.08-13.17.40:754][  0]LogTemp: CWD: D:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.03.08-13.17.40:754][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.20
-[2019.03.08-13.17.40:754][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.03.08-13.17.40:754][  0]LogTemp: BranchPath = i7-mk8-2017-03/D/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = i7-mk8-2017-03/D/Epic Games/UE_4.20/Engine/Binaries
-[2019.03.08-13.17.40:754][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\etudiant\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.03.08-13.17.40:754][  0]LogRenderer: Reallocating scene render targets to support 1236x620 Format 10 NumSamples 1 (Frame:1).
-[2019.03.08-13.17.40:822][  0]LogShaderCompilers: Display: Shaders left to compile 147
-[2019.03.08-13.17.40:822][  0]LogSlate: Took 0.004180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.08-13.17.40:909][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.08-13.17.40:910][  0]LogLoad: (Engine Initialization) Total time: 24.92 seconds
-[2019.03.08-13.17.40:910][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.08-13.17.40:967][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.08-13.17.40:974][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.08-13.17.41:181][  3]LogAssetRegistry: Asset discovery search completed in 17.7975 seconds
-[2019.03.08-13.17.41:184][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.08-13.17.41:184][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
-[2019.03.08-13.17.41:848][ 69]LogShaderCompilers: Display: Shaders left to compile 137
-[2019.03.08-13.17.43:093][202]LogShaderCompilers: Display: Shaders left to compile 127
-[2019.03.08-13.17.43:428][242]LogShaderCompilers: Display: Shaders left to compile 117
-[2019.03.08-13.17.44:304][347]LogShaderCompilers: Display: Shaders left to compile 107
-[2019.03.08-13.17.44:421][361]LogShaderCompilers: Display: Shaders left to compile 97
-[2019.03.08-13.17.46:142][559]LogShaderCompilers: Display: Shaders left to compile 87
-[2019.03.08-13.17.46:561][608]LogShaderCompilers: Display: Shaders left to compile 77
-[2019.03.08-13.17.46:787][635]LogShaderCompilers: Display: Shaders left to compile 67
-[2019.03.08-13.17.47:442][710]LogShaderCompilers: Display: Shaders left to compile 57
-[2019.03.08-13.17.48:583][847]LogShaderCompilers: Display: Shaders left to compile 47
-[2019.03.08-13.17.48:724][864]LogShaderCompilers: Display: Shaders left to compile 37
-[2019.03.08-13.17.49:060][904]LogShaderCompilers: Display: Shaders left to compile 27
-[2019.03.08-13.17.50:303][ 52]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.03.08-13.17.51:056][142]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.03.08-13.17.53:274][403]LogSlate: Window 'Message Log' being destroyed
-[2019.03.08-13.17.53:277][403]LogSlate: Window 'Message Log' being destroyed
-[2019.03.08-13.17.55:198][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.08-13.17.58:477][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.08-13.18.03:469][606]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Driller_C_0.DefaultSceneRoot' is not static  (in blueprint "Driller"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Driller_C_0.StaticMesh1' which is static to it. Aborting.
-[2019.03.08-13.18.11:508][548]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.08-13.18.11:514][548]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy
-[2019.03.08-13.18.11:963][548]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0BB5
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0C02
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0C39
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0CAC
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0D2C
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0D9F
-[2019.03.08-13.18.12:691][548]LogScript: Warning: Accessed None trying to read property K2Node_Event_OtherActor
-	BP_BaseEnemy_C /Engine/Transient.World_14:PersistentLevel.BP_BaseEnemy_C_0
-	Function /Game/PFE/Blueprint/AI/AIGlobal/BP_BaseEnemy.BP_BaseEnemy_C:ExecuteUbergraph_BP_BaseEnemy:0DEC
-[2019.03.08-13.18.12:699][548]LogSlate: Took 0.003260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.08-13.18.14:310][704]LogSlate: Window 'BP_BaseEnemy' being destroyed
-[2019.03.08-13.18.14:318][704]LogSlate: Took 0.003230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.08-13.18.15:344][812]BlueprintLog: New page: Compile BP_BaseEnemy
-[2019.03.08-13.18.16:749][848]LogRenderer: Reallocating scene render targets to support 1236x696 Format 10 NumSamples 1 (Frame:1).
-[2019.03.08-13.20.18:600][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.08-13.22.07:103][837]LogSlate: Window 'ICHOR - Unreal Editor' being destroyed
-[2019.03.08-13.22.07:106][837]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.08-13.22.07:314][838]Cmd: QUIT_EDITOR
-[2019.03.08-13.22.07:348][838]LogExit: Preparing to exit.
-[2019.03.08-13.22.08:447][838]LogExit: Editor shut down
-[2019.03.08-13.22.08:447][838]LogExit: Transaction tracking system shut down
-[2019.03.08-13.22.09:173][838]LogExit: Object subsystem successfully closed.
-[2019.03.08-13.22.09:191][838]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.03.08-13.22.09:195][838]LogD3D11RHI: Shutdown
-[2019.03.08-13.22.09:195][838]LogD3D11RHI: CleanupD3DDevice
-[2019.03.08-13.22.09:197][838]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (614)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
-[2019.03.08-13.22.09:206][838]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module BspMode (586)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SessionServices (536)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
-[2019.03.08-13.22.09:207][838]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module MergeActors (500)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module XmlParser (488)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module Blutility (486)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
-[2019.03.08-13.22.09:313][838]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
-[2019.03.08-13.22.09:314][838]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
-[2019.03.08-13.22.09:314][838]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
-[2019.03.08-13.22.09:314][838]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module AutomationController (466)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module Layers (462)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module Persona (454)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
-[2019.03.08-13.22.09:369][838]LogModuleManager: Shutting down and abandoning module Kismet (448)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module Toolbox (442)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module OutputLog (436)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module GammaUI (434)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module Documentation (432)
-[2019.03.08-13.22.09:377][838]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module MovieScene (428)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module PortalServices (420)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module AIModule (414)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
-[2019.03.08-13.22.09:378][838]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module OculusInput (394)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module CableComponent (386)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
-[2019.03.08-13.22.09:509][838]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module AppleVision (358)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
-[2019.03.08-13.22.09:512][838]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module SourceControl (317)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.03.08-13.22.09:513][838]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.03.08-13.22.09:615][838]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.03.08-13.22.09:716][838]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.03.08-13.22.09:717][838]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.03.08-13.22.09:717][838]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.03.08-13.22.09:718][838]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.03.08-13.22.09:719][838]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.03.08-13.22.09:724][838]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.03.08-13.22.09:725][838]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.03.08-13.22.09:725][838]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.03.08-13.22.09:726][838]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.03.08-13.22.09:738][838]LogDerivedDataCache: Shutdown
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.03.08-13.22.09:738][838]LogXGEController: Cleaning working directory: C:/Users/etudiant/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.03.08-13.22.09:738][838]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.03.08-13.22.09:739][838]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.03.08-13.22.09:740][838]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.03.08-13.22.09:740][838]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.03.08-13.22.09:744][838]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.03.08-13.22.09:745][838]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.03.08-13.22.09:745][838]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.03.08-13.22.09:760][838]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.03.08-13.22.09:760][838]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.03.08-13.22.09:760][838]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF0A15AA0-4DFC-C9FC-DDFE-FB867123366C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=39824cf84233e56c353dccbffedb5100%7C71f21aca187348668708cb239143a83c%7Ccf8163a1-e491-42fe-a516-8652904b024e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.03.08-13.22.09:768][838]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.03.08-13.22.09:768][838]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.03.08-13.22.09:768][838]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.03.08-13.22.09:769][838]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.03.08-13.22.09:774][838]LogExit: Exiting.
-[2019.03.08-13.22.09:781][838]Log file closed, 03/08/19 14:22:09
+[2019.03.08-13.47.34:026][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.08-13.47.34:093][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.08-13.47.34:248][  0]MapCheck: Map check complete: 0 Error(s), 3 Warning(s), took 155,108ms to complete.
+[2019.03.08-13.47.34:264][  0]LogFileHelpers: Loading map 'Level_1' took 5.464
+[2019.03.08-13.47.34:372][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-13.47.34:384][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-13.47.34:396][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-13.47.34:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-13.47.34:416][  0]LogCollectionManager: Loaded 0 collections in 0.001297 seconds
+[2019.03.08-13.47.34:458][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Saved/Collections/' took 0.01s
+[2019.03.08-13.47.34:458][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/Developers/etudiant/Collections/' took 0.01s
+[2019.03.08-13.47.34:458][  0]LogFileCache: Scanning file cache for directory 'D:/BackupAbsolue/TABProject/ICHOR-Last-Year/Content/Collections/' took 0.01s
+[2019.03.08-13.47.34:458][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.08-13.47.34:474][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2581 classes and 608 folders.
+[2019.03.08-13.47.34:480][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-13.47.34:528][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.08-13.47.34:535][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.08-13.47.35:866][  0]LogShaderCompilers: Display: Shaders left to compile 157
+[2019.03.08-13.47.35:866][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.08-13.47.35:899][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.08-13.47.35:902][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.08-13.47.35:909][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.08-13.47.36:021][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ICHOR
+[2019.03.08-13.47.36:021][  0]LogTemp: CWD: D:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.08-13.47.36:021][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.20
+[2019.03.08-13.47.36:021][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.08-13.47.36:021][  0]LogTemp: BranchPath = i7-mk8-2017-03/D/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = i7-mk8-2017-03/D/Epic Games/UE_4.20/Engine/Binaries
+[2019.03.08-13.47.36:021][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\etudiant\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.08-13.47.36:021][  0]LogRenderer: Reallocating scene render targets to support 1236x620 Format 10 NumSamples 1 (Frame:1).
+[2019.03.08-13.47.36:087][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-13.47.36:172][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-13.47.36:172][  0]LogLoad: (Engine Initialization) Total time: 12.91 seconds
+[2019.03.08-13.47.36:172][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.08-13.47.36:237][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.08-13.47.36:342][  1]LogShaderCompilers: Display: Shaders left to compile 147
+[2019.03.08-13.47.36:420][  3]LogAssetRegistry: Asset discovery search completed in 10.1335 seconds
+[2019.03.08-13.47.36:423][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.08-13.47.36:423][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.03.08-13.47.37:084][ 49]LogShaderCompilers: Display: Shaders left to compile 137
+[2019.03.08-13.47.37:182][ 57]LogShaderCompilers: Display: Shaders left to compile 127
+[2019.03.08-13.47.37:232][ 58]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-13.47.38:104][122]LogShaderCompilers: Display: Shaders left to compile 117
+[2019.03.08-13.47.38:881][188]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.03.08-13.47.38:976][195]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.03.08-13.47.39:915][271]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.03.08-13.47.40:872][351]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.03.08-13.47.41:193][377]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.03.08-13.47.41:737][421]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.03.08-13.47.42:251][464]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.03.08-13.47.43:083][533]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.08-13.47.43:378][555]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.08-13.47.44:628][657]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-13.47.44:852][676]LogShaderCompilers: Display: Shaders left to compile 7
