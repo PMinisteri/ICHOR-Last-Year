@@ -317,11 +317,38 @@
 					{
 						"Name": "DatasmithContent",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "PostConfigInit"
 					},
 					{
 						"Name": "DatasmithContentEditor",
 						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Variant Manager Content",
+				"Description": "Data classes and assets for the Variant Manager enterprise plugin",
+				"Category": "Unreal Studio",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "https://docs.unrealengine.com/en-US/Studio/Datasmith",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "VariantManagerContent",
+						"Type": "Runtime",
 						"LoadingPhase": "Default"
 					}
 				]
@@ -453,7 +480,12 @@
 					{
 						"Name": "AppleImageUtilsBlueprintSupport",
 						"Type": "Developer",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Mac",
+							"Linux"
+						]
 					}
 				]
 			}
@@ -742,7 +774,13 @@
 					{
 						"Name": "MediaCompositingEditor",
 						"Type": "Editor",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "PostEngineInit"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ImgMedia",
+						"Enabled": true
 					}
 				]
 			}
@@ -815,13 +853,19 @@
 				"SupportURL": "",
 				"EnabledByDefault": true,
 				"CanContainContent": false,
+				"SupportedPrograms": [
+					"UnrealFrontend"
+				],
 				"Modules": [
 					{
 						"Name": "TcpMessaging",
-						"Type": "RuntimeAndProgram",
+						"Type": "Runtime",
 						"LoadingPhase": "PreDefault",
 						"BlacklistPlatforms": [
 							"HTML5"
+						],
+						"WhitelistPrograms": [
+							"UnrealFrontend"
 						]
 					}
 				]
@@ -844,6 +888,11 @@
 				"SupportURL": "",
 				"EnabledByDefault": true,
 				"CanContainContent": false,
+				"SupportedPrograms": [
+					"UnrealFrontend",
+					"UnrealCollaborationServer",
+					"UnrealLightmass"
+				],
 				"Modules": [
 					{
 						"Name": "UdpMessaging",
@@ -851,6 +900,11 @@
 						"LoadingPhase": "PreDefault",
 						"BlacklistPlatforms": [
 							"HTML5"
+						],
+						"WhitelistPrograms": [
+							"UnrealFrontend",
+							"UnrealCollaborationServer",
+							"UnrealLightmass"
 						]
 					}
 				]
@@ -1134,7 +1188,8 @@
 						"LoadingPhase": "Default",
 						"WhitelistPlatforms": [
 							"Win64",
-							"Lumin"
+							"Lumin",
+							"Mac"
 						]
 					},
 					{
@@ -1230,37 +1285,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ImmediatePhysics/ImmediatePhysics.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Immediate Mode Physics",
-				"Description": "Immediate Mode Physx Integration",
-				"Category": "Physics",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "ImmediatePhysics",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "ImmediatePhysicsEditor",
-						"Type": "Developer",
-						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/LocationServicesBPLibrary.uplugin",
 			"Descriptor": 
 			{
@@ -1318,15 +1342,15 @@
 			{
 				"FileVersion": 3,
 				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "OculusVR",
+				"VersionName": "1.27.0",
+				"FriendlyName": "Oculus VR",
 				"Description": "Support for Oculus headsets and controllers",
 				"Category": "Virtual Reality",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
+				"CreatedBy": "Oculus",
+				"CreatedByURL": "https://www.oculus.com/",
+				"DocsURL": "https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-engine/",
 				"MarketplaceURL": "",
-				"SupportURL": "",
+				"SupportURL": "https://forums.oculusvr.com/developer/categories/unreal",
 				"EnabledByDefault": true,
 				"CanContainContent": true,
 				"Modules": [
@@ -1503,6 +1527,123 @@
 					{
 						"Name": "ProceduralMeshComponent",
 						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Movie Player for WebM files",
+				"Description": "Movie Player for WebM files",
+				"Category": "Movie Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "WebMMoviePlayer",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PreLoadingScreen",
+						"BlacklistPlatforms": [
+							"Win32",
+							"XboxOne",
+							"PS4",
+							"IOS",
+							"Android",
+							"HTML5",
+							"TVOS",
+							"Switch",
+							"Lumin"
+						],
+						"BlacklistTargets": [
+							"Server"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "WebMMedia",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Media/WebMMedia/WebMMedia.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "WebM Video Player",
+				"Description": "",
+				"Category": "Media Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "WebMMedia",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PostEngineInit",
+						"BlacklistPlatforms": [
+							"Win32",
+							"XboxOne",
+							"PS4",
+							"IOS",
+							"Android",
+							"HTML5",
+							"TVOS",
+							"Switch",
+							"Lumin"
+						],
+						"BlacklistTargets": [
+							"Server"
+						]
+					},
+					{
+						"Name": "WebMMediaEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					},
+					{
+						"Name": "WebMMediaFactory",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					},
+					{
+						"Name": "WebMMediaFactory",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PostEngineInit",
+						"BlacklistPlatforms": [
+							"Win32",
+							"Mac",
+							"XboxOne",
+							"PS4",
+							"IOS",
+							"Android",
+							"HTML5",
+							"TVOS",
+							"Switch",
+							"Lumin"
+						],
+						"BlacklistTargets": [
+							"Server"
+						]
 					}
 				]
 			}
